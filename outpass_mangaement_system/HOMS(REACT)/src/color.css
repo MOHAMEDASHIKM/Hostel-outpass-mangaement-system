@@ -1,0 +1,527 @@
+/* ul{
+    background-color: rgb(255, 0, 43);
+    color: white;
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 15px;
+    padding-top: 16px;
+}
+input{
+    border: 2.5px solid rgba(0, 0, 0, 0.808);
+    width: 15%;
+    height: 25px;
+    color: solid sienna;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: royalblue;
+    margin-top: 0.5%;
+}
+ */
+/* ================================footer================== */
+
+
+
+#botm {
+
+    height: 180px;
+    background-color: rgb(60, 60, 60);
+
+}
+
+#footertitbox {
+    width: 32%;
+}
+
+#cologos {
+    max-width: 70px;
+    max-height: 65px;
+    margin-left: 5em;
+    margin-top: 25px;
+    margin-right: 0.5em;
+    border-radius: 5px;
+}
+
+.footertit {
+    font-size: 20PX;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: -10rem;
+    padding-top: 35px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.footertit:hover {
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px white, 0 0 5px white, 0 0 5px white;
+    transition: all 1s;
+    color: rgb(243, 5, 5);
+}
+
+.footersubtit {
+    font-size: 10px;
+    overflow: hidden;
+    color: whitesmoke;
+    margin-top: -1px;
+}
+
+#footercont {
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center;
+    color: whitesmoke;
+    float: left;
+    display: inline-flex;
+}
+
+#footerconn {
+    margin-top: -4em;
+    margin-left: 50%;
+    width: 32%;
+    color: whitesmoke;
+    height: 50px;
+    /* background-color: rgb(60, 60, 60); */
+}
+
+#footerad {
+    margin-left: 20%;
+    margin-top: 0.5em;
+
+}
+
+
+/* =================slide ========================================= */
+/* Slideshow */
+#slideimg {
+    /* background-color: red; */
+    height: 400px;
+    width: 90%;
+    margin-top: -1.5em;
+
+}
+
+/* =============================================================img ====================================== */
+#aboutimg {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 4em;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 550;
+    text-align: justify;
+    /* padding-top: 20px; */
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    color: rgb(25, 24, 24);
+}
+
+.gimg {
+    width: 220px;
+    height: 140px;
+    margin-bottom: 20px;
+    padding: 0PX 0PX;
+    align-self: center;
+}
+
+.gimg:hover {
+    letter-spacing: 1px;
+    align-self: center;
+    box-shadow: 0 0 15px rgb(49, 48, 48), 0 0 15px rgb(73, 71, 71), 0 0 15px rgb(35, 33, 33);
+    transition: all 1.2s;
+    color: rgb(243, 5, 5);
+}
+
+/* ====================================================  news page css ======================================================= */
+.news-container {
+    margin-left: 5%;
+    padding-bottom: 40px;
+    margin-top: 3%;
+    width: 450px;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 480px;
+    float: left;
+    /* background-color: rgb(190, 0, 0); */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.news-container-staffpg {
+    margin-left: 5%;
+    padding-bottom: 40px;
+    margin-top: 3%;
+    width: 450px;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 1440px;
+    float: left;
+    /* background-color: rgb(190, 0, 0); */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.news-container-stdapplypg {
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-bottom: 40px;
+    width: 450px;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 650px;
+    float: left;
+    /* background-color: rgb(190, 0, 0); */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+
+.news-container-homepg {
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 450px;
+    padding-bottom: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 950px;
+    float: left;
+    display: inline;
+    /* background-color: rgb(190, 0, 0); */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+
+.news-container-adimpage {
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 450px;
+    color: whitesmoke;
+    padding-bottom: 40px;
+    font-size: 20px;
+    height: 680px;
+    float: left;
+    /* background-color: rgb(190, 0, 0); */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+
+
+
+#newscard {
+    max-width: 90%;
+    max-height: 18%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 1px solid rgb(248, 243, 243);
+    padding: 10px;
+    /* background-color: rgb(255, 254, 254); */
+
+}
+
+.dateal {
+    width: 100px;
+    max-width: 50%;
+    float: left;
+    margin-left: -9px;
+    /* background-color: rgb(190, 0, 0); */
+}
+
+.montcad {
+    border: 2px solid rgb(190, 0, 0);
+    max-width: 78px;
+    max-height: 33px;
+    text-align: center;
+    background-color: rgb(190, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    margin-bottom: -3%;
+    /* align-self: center; */
+
+}
+
+.datecad {
+    border: 2px solid rgb(190, 0, 0);
+    padding: 5px 10.2px;
+    color: rgb(28, 28, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 5%; */
+    margin-top: -6em;
+    align-self: center;
+}
+
+.newstit {
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 1%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.741);
+    text-overflow: clip;
+    width: 250px;
+    padding: 5px 10px;
+    height: auto;
+}
+
+.newssubtit {
+    text-align: left;
+    margin-left: 25%;
+    margin-top: -3.5em;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 32, 32);
+    text-overflow: clip;
+    width: 250px;
+    padding: 5px 10px;
+    height: auto;
+}
+
+.eventdel {
+    max-height: 25px;
+    max-width: 80px;
+    margin-left: 75%;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(24, 51, 133);
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+  }
+  .eventdel:hover {
+    letter-spacing: 1px;
+    background-color: rgb(190, 0, 0);
+    box-shadow: white 0px 7px 10px 0px;
+    transition: all 1s;
+  }
+  
+  .eventdel:active {
+    letter-spacing: 3px;
+    background-color: white;
+    color: rgb(190, 0, 0);
+    box-shadow: white 0px 7px 29px 0px;
+    transform: translateY(5px);
+  }
+
+/* ===========================admin home page=================================================================== */
+.admin-container {
+    margin-left: 32%;
+    margin-top: 3%;
+    width: 950px;
+    color: whitesmoke;
+    font-size: 20px;
+    height: auto;
+    padding-bottom: 50px;
+    /* background-color: rgb(190, 0, 0); */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+}
+
+.adduserbtn {
+    margin-left: 8%;
+    max-width: 450PX;
+    margin-top: 3%;
+    border: 2px solid red;
+    padding: 10px 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(24, 51, 133);
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    float: left;
+}
+
+.addstdbtn {
+    margin-left: 6%;
+    /* width: 250px; */
+    margin-top: 3%;
+    border: 2px solid red;
+    padding: 10px 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(24, 51, 133);
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    float: left;
+}
+
+.adduserbtn:hover,
+.addevbtn:hover,
+.addstdbtn:hover {
+    letter-spacing: 1px;
+    background-color: rgb(190, 0, 0);
+    box-shadow: white 0px 7px 10px 0px;
+    transition: all 1s;
+}
+
+.adduserbtn:active,
+.addevbtn:active,
+.addstdbtn:active {
+    letter-spacing: 0.5px;
+    background-color: white;
+    color: rgb(190, 0, 0);
+    box-shadow: white 0px 7px 29px 0px;
+    transform: translateY(5px);
+}
+
+.addevbtn {
+    margin-left: 40%;
+    width: 180PX;
+    height: 40px;
+    margin-top: 3%;
+    border: 2px solid red;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(24, 51, 133);
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+}
+
+/* ==================contact page=============================== */
+#con-txt1 {
+    padding: 40px 50px;
+    /* background-color: white; */
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    float: left;
+    margin-right: 20%;
+    margin-left: 15%;
+}
+
+#con-txt2 {
+    /* background-color: white; */
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    margin-right: 20%;
+    margin-left: 15%;
+}
+
+#con-txt3 {
+    /* background-color: white; */
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    margin-right: 20%;
+    margin-left: 27%;
+}
+
+#con-box:hover {
+    align-self: center;
+    box-shadow: 0 0 15px rgb(49, 48, 48), 0 0 15px rgb(73, 71, 71), 0 0 15px rgb(35, 33, 33);
+    transition: all 1.2s;
+}
+
+span {
+    color: rgb(190, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#span-num {
+    padding-left: 10px;
+}
+
+
+
+/* =============student outpass view page new add qr ================================================ */
+
+
+.qrcode {
+    margin-left: 23%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 117px;
+}
+
+.qrcode:hover {
+
+    box-shadow: 0 0 15px rgb(49, 48, 48), 0 0 15px rgb(73, 71, 71), 0 0 15px rgb(35, 33, 33);
+    transition: all 1s;
+
+}
+
+
+.test {
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    padding: 20px;
+    margin: 5%;
+}
+
+
+/* ============std list view page ==================== */
+.viewstdlist-container {
+    margin-left: 8%;
+    margin-top: 3%;
+    width: 1250px;
+    padding-bottom: 50px;
+    color: whitesmoke;
+    font-size: 20px;
+    height: auto;
+    /* background-color: rgb(190, 0, 0); */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+}
+
+.bordered-table {
+    border-collapse: collapse;
+    margin-left: 8%;
+    margin-top: 1%;
+    align-self: center;
+    color: #ddd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.bordered-table th,
+.bordered-table td {
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+
+
+}
+
+.bordered-table th {
+    background-color: rgb(190, 0, 0);
+    color: #ddd;
+
+}
+
+/* .bordered-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  } */
+
+.bordered-table tr:hover {
+    background-color: rgb(190, 0, 0);
+
+}
+
+#seachbox {
+    width: 50em;
+    height: 2.5em;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    color: black;
+}
